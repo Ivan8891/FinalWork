@@ -32,6 +32,6 @@ string[] NewArray (string [] array)
 }
 string[] array = GetArray();
 string[] newArray = NewArray(array);
-Console.WriteLine($"[{String.Join(" ", array)}]");
-Console.WriteLine($"[{String.Join(" ", newArray)}]");
+Console.WriteLine($"Ваш массив: [{String.Join(" ", array)}]");
+Console.WriteLine($"Массив со значениями не превышающих 3 символов: [{String.Join(" ", newArray)}]");
 
